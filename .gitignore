@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Installation and building
+*.egg-info/
+build/
+dist/
+
+# Docs build
+docs/_build/
+docs/reference/
