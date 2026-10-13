@@ -29,6 +29,7 @@ jobs:
           path: docs/_build/html
 
   deploy:
+    if: ${{ vars.PUBLISH_DOCS == 'true' }}
     needs: build
     runs-on: ubuntu-latest
     environment:

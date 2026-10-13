@@ -2,6 +2,7 @@ project = "pagestest"
 copyright = "2026, Elias Mende"
 author = "Elias Mende"
 release = "0.1.0"
+html_title = "Testing GitHUb Pages"
 
 root_doc = "index"
 
